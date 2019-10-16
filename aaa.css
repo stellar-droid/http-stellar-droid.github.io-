@@ -1,0 +1,88 @@
+
+ul
+{
+	
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	
+}
+ul li
+{
+	background-color:cadetblue;
+	
+	width:300px;
+	height:30px;
+	float:left;
+	border:1px solid white;
+	line-height:30px;
+	text-align:center;
+}
+ul li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+    display:block;
+	}
+
+ul li a:hover
+{	
+background-color:red;
+}
+ul li ul a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	display:block;
+	margin:0px;
+	padding:0px;
+	
+	
+}
+ul li ul li a:hover
+{   
+background-color:cilver;
+
+
+}
+ul li ul li 
+{
+	display:none; 
+	
+}
+ul li:hover ul li 
+{
+	
+	display:block;
+	
+}
+h1
+{
+	padding:0px;
+	margin:0px;
+	background-color :transparent;
+	
+}
+	
+body
+{
+	background-image:url('.gif');
+	
+}
+#header
+{
+	background-image:url('aaa.jpg');
+	height:10%;
+}
+#center
+{
+background-color:silver;
+}
+#footer
+{
+background-image:url('aaa.jpg');
+	height:10%;
+}
+	
